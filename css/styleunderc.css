@@ -1,0 +1,17 @@
+html {
+  background-color: ;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  margin: 10rem 0 0 3rem;
+  font-size: 4rem !important;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 200;
+  color: #353535;
+}
+img {
+  border-radius: 50%;
+  margin: 2rem 0 0 40.5rem;
+  max-width: 19%;
+}
