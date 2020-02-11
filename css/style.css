@@ -9,12 +9,13 @@
 
 @font-face {
   font-family: "Flaticon";
-  src: url("../fonts/font/Flaticon.eot");
-  src: url("../fonts/font/Flaticon.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/font/Flaticon.woff2") format("woff2"),
-    url("../fonts/font/Flaticon.woff") format("woff"),
-    url("../fonts/fonts/flaticon/font/Flaticon.ttf") format("truetype"),
-    url("../fonts/font/Flaticon.svg#Flaticon") format("svg");
+  src: url("../fonts/flaticon/font/Flaticon.eot");
+  src: url("../fonts/flaticon/font/Flaticon.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/flaticon/font/Flaticon.woff2") format("woff2"),
+    url("../fonts/flaticon/font/Flaticon.woff") format("woff"),
+    url("../fonts/flaticon/fonts/flaticon/font/Flaticon.ttf") format("truetype"),
+    url("../fonts/flaticon/font/Flaticon.svg#Flaticon") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -24,9 +25,15 @@
 .flaticon-winner:before {
   font-size: 1.8rem !important;
 }
+span.flaticon-linkedin-1::before,
+span.flaticon-github-image::before {
+  color: #353535 !important;
+  font-size: 3rem !important;
+  margin: 0 5px !important;
+}
 
 img.icons {
-  max-width: 8%;
+  max-width: 7%;
 }
 
 html {
@@ -331,7 +338,15 @@ a {
 a:hover {
   text-decoration: none;
 }
+a.item-wrap {
+  color: #212529 !important;
+  text-align: center;
+}
 
+a.item-wrap:hover {
+  color: #212529 !important;
+  text-align: center;
+}
 h1,
 h2,
 h3,
@@ -406,7 +421,7 @@ h5,
 }
 .form-control:active,
 .form-control:focus {
-  border-color: #01d28e;
+  border-color: #353535;
 }
 .form-control:hover,
 .form-control:active,
@@ -428,12 +443,12 @@ h5,
 }
 
 .site-footer {
-  padding: 4em 0;
-  background: #efefef;
+  padding: 1rem !important;
+  background: #fadad6;
 }
 @media (min-width: 768px) {
   .site-footer {
-    padding: 8em 0;
+    padding: 2em 0;
   }
 }
 .site-footer .border-top {
@@ -1365,7 +1380,7 @@ h5,
   -webkit-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
-  background: #01d28e;
+  background: #353535;
   height: 2px;
 }
 .block-testimony-1 figure img {
@@ -1399,7 +1414,7 @@ h5,
   margin: 3px;
 }
 .block-13 .owl-dots .owl-dot.active span {
-  background: #01d28e;
+  background: #353535;
 }
 
 .post-entry {
@@ -1427,7 +1442,7 @@ h5,
   border-bottom: 1px dotted #ccc;
 }
 .by:hover {
-  border-bottom: 1px dotted #01d28e;
+  border-bottom: 1px dotted #353535;
 }
 
 .form-control {
@@ -1742,7 +1757,7 @@ h5,
   border-radius: 50%;
 }
 .owl-all .owl-dots .owl-dot.active > span {
-  background: #01d28e;
+  background: #353535;
 }
 
 @media (min-width: 992px) {
@@ -1783,7 +1798,7 @@ h5,
   color: #000;
 }
 .blog-entry .blog-excerpt a:hover {
-  color: #01d28e;
+  color: #353535;
 }
 
 .bg-light {
@@ -1905,7 +1920,7 @@ h5,
 }
 .item-1 .item-1-contents h3 {
   position: relative;
-  color: #01d28e;
+  color: #353535;
   padding-bottom: 30px;
   margin-bottom: 30px;
 }
@@ -2201,12 +2216,12 @@ h5,
 .item .item-wrap:after {
   z-index: 2;
   position: absolute;
-  content: "";
+  content: "CRUD To Do App with Laravel + authentification ";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
+  background: transparent;
   visibility: hidden;
   opacity: 0;
   -webkit-transition: 0.3s all ease-in-out;
@@ -2255,7 +2270,7 @@ h5,
 }
 
 .quote-29281 {
-  border-left: 10px solid #01d28e;
+  border-left: 10px solid #353535;
   padding-left: 30px;
 }
 
@@ -2334,6 +2349,7 @@ h5,
 
 .service-29128 {
   background-color: #fff;
+  height: 95%;
   padding: 20px;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
@@ -2343,9 +2359,9 @@ h5,
   -webkit-box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.2);
 }
-.service-29128 .wrap-icon {
-  margin-bottom: 30px;
-}
+/* .service-29128 .wrap-icon {
+  margin-bottom: 30px; */
+/* } */
 .service-29128 .wrap-icon > span {
   font-size: 30px;
 }
@@ -2401,4 +2417,19 @@ h5,
 }
 .site-logo img.site-logojenhtc {
   max-height: 100px;
+}
+img.icon-sm {
+  max-width: 3.5rem;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.pt-5 {
+  padding-top: 1rem !important;
+}
+.mt-5 {
+  margin-top: 0 !important;
+}
+img.contactme {
+  max-width: 50px;
+  margin-top: 20px;
 }

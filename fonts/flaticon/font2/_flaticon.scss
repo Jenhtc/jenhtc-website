@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 11/02/2020 14:13
+    Creation date: 11/02/2020 15:42
     */
 
     @font-face {
@@ -37,18 +37,6 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-github-image:before { content: "\f100"; }
-.flaticon-linkedin:before { content: "\f101"; }
-.flaticon-linkedin-1:before { content: "\f102"; }
-.flaticon-code:before { content: "\f103"; }
-.flaticon-advertisement:before { content: "\f104"; }
-.flaticon-conversation:before { content: "\f105"; }
-.flaticon-fireworks:before { content: "\f106"; }
+    .flaticon-at:before { content: "\f100"; }
     
-    $font-Flaticon-github-image: "\f100";
-    $font-Flaticon-linkedin: "\f101";
-    $font-Flaticon-linkedin-1: "\f102";
-    $font-Flaticon-code: "\f103";
-    $font-Flaticon-advertisement: "\f104";
-    $font-Flaticon-conversation: "\f105";
-    $font-Flaticon-fireworks: "\f106";
+    $font-Flaticon-at: "\f100";

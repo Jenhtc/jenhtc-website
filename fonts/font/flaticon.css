@@ -29,9 +29,10 @@
   font-family: Flaticon;
   font-size: 3rem !important;
   font-style: normal;
+  margin: 0 !important;
 }
 
-.flaticon-coding:before {
+/* .flaticon-coding:before {
   content: "\f100";
 }
 .flaticon-laptop:before {
@@ -42,4 +43,4 @@
 }
 .flaticon-winner:before {
   content: "\f103";
-}
+} */
