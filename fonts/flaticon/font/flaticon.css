@@ -1,6 +1,6 @@
 /*
   	Flaticon icon font: Flaticon
-  	Creation date: 11/02/2020 14:13
+  	Creation date: 12/02/2020 10:55
   	*/
 
 @font-face {
@@ -51,4 +51,7 @@
 }
 .flaticon-fireworks:before {
   content: "\f106";
+}
+.flaticon-at:before {
+  content: "\f107";
 }
